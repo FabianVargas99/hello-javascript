@@ -4,10 +4,14 @@ Vídeo: https://youtu.be/1glVfFxj8a4?t=11451
 */
 
 // 1. Crea un array que almacene cinco animales
+let myArray = ["Perro", "Gato", "Pato", "Elefante", "Jirafa"]
 
 // 2. Añade dos más. Uno al principio y otro al final
+myArray.push("ganso")
+myArray.unshift("libelula")
 
 // 3. Elimina el que se encuentra en tercera posición
+myArray.splice(2,1)
 
 // 4. Crea un set que almacene cinco libros
 
